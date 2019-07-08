@@ -2,7 +2,7 @@ package com.company;
 
 public class HomeWork {
     public int numExercises;
-    public String exercise;
+    private String exercise;
     public String subject;
 
     public HomeWork(int num,String exer, String subject){
@@ -10,6 +10,11 @@ public class HomeWork {
         this.numExercises = num;
         this.exercise = exer;
     }
+
+    public String getExercise() {
+        return exercise;
+    }
+
     public void print(){
         System.out.println("You did "+this.numExercises+" form " + this.subject );
     }
