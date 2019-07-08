@@ -6,5 +6,6 @@ public class Main {
 	HomeWork work = new HomeWork(4,"Homework","Math");
 	work.print();
 	work.printExercise();
+	HomeWork work2 =new HomeWork(1,"Exam","Physics");
     }
 }
