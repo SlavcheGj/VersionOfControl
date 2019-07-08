@@ -14,7 +14,9 @@ public class HomeWork {
     public String getExercise() {
         return exercise;
     }
-
+    public void printExercise(){
+        System.out.println("the name of your exercise is "+getExercise());
+    }
     public void print(){
         System.out.println("You did "+this.numExercises+" form " + this.subject );
     }
